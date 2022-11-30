@@ -9,9 +9,20 @@ app.use(express.json())
 app.use(cors())
 
 
-const {getWalter} = require('./controller')
+const {getWalter, 
+    getJesse, 
+    getSaul, 
+    getGus, 
+    getMike, 
+    getHector} 
+    = require('./controller')
 
-app.get('/api/characters/:id', getWalter)
+app.get('/api/walter/', getWalter)
+app.get('/api/jesse/', getJesse)
+app.get('/api/saul/', getSaul)
+app.get('/api/gus/', getGus)
+app.get('/api/mike/', getMike)
+app.get('/api/hector/', getHector)
 
 
 
