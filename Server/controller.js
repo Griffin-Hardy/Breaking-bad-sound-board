@@ -1,5 +1,5 @@
 const characters = require('./db.json')
-let globalId = 8
+let globalId = 7
 
 module.exports = {
     getWalter: (req, res) => {
@@ -38,7 +38,7 @@ module.exports = {
         
     },
     getNewCharacter: (req, res) => {
-        const remove = characters.slice(7)
+        const remove = characters.slice(6)
         res.status(200).send(remove)
     },
 
@@ -50,18 +50,18 @@ module.exports = {
         res.status(200).send(characters)
     },
 
-    addFavorite: (req, res) => {
+    updateCharacter: (req, res) => {
         const index = characters.findIndex((el) => el.id === +req.params.id)
         const {type} = req.body
 
-        if(type === true){
-            characters[6].push(...index.audio)
+        if(type === 'like'){
+            characters[index].likes++
+        }else if(type === 'dislike'){
+            characters[index].likes--
         }
-
+        
         res.status(200).send(characters)
 
     },
-    getFavorites: (req, res) => {
-        res.status(200).send(characters[6])
-    }
+   
 }

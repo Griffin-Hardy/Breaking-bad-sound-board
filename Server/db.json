@@ -4,46 +4,41 @@
         "name": "Walter White",
         "picture": "asdf1",
         "audio": ["qwerty1", "qwerty1", "qwerty1", "qwerty1", "qwerty1"],
-        "favorite": false
+        "likes": 0
     },
     {
         "id": 2,
         "name": "Jesse Pinkman",
         "picture": "asdf2",
         "audio": ["qwerty2", "qwerty2", "qwerty2", "qwerty2", "qwerty2"],
-        "favorite": false
+        "likes": 0
     },
     {
         "id": 3,
         "name": "Saul Goodman",
         "picture": "asdf3",
         "audio": ["qwerty3", "qwerty3", "qwerty3", "qwerty3", "qwerty3"],
-        "favorite": false
+        "likes": 0
     },
     {
         "id": 4,
         "name": "Gus Fring",
         "picture": "asdf4",
         "audio": ["qwerty4", "qwerty4", "qwerty4", "qwerty4", "qwerty4"],
-        "favorite": false
+        "likes": 0
     },
     {
         "id": 5,
         "name": "Mike Ehrmantraut",
         "picture": "asdf5",
         "audio": ["qwerty5", "qwerty5", "qwerty5", "qwerty5", "qwerty5"],
-        "favorite": false
+        "likes": 0
     },
     {
         "id": 6,
         "name": "Hector Salamanca",
         "picture": "asdf6",
         "audio": ["qwerty6"],
-        "favorite": false
-    },
-    {
-        "id": 7,
-        "name": "favorite sounds",
-        "audio": []
+        "likes": 0
     }
 ]

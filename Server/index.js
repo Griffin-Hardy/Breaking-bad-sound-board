@@ -18,8 +18,7 @@ const {getWalter,
     addCharacter,
     getNewCharacter,
     deleteCharacter,
-    addFavorite,
-    getFavorites} 
+    updateCharacter} 
     = require('./controller')
 
 app.get('/api/walter', getWalter)
@@ -29,10 +28,9 @@ app.get('/api/gus', getGus)
 app.get('/api/mike', getMike)
 app.get('/api/hector', getHector)
 app.get('/api/newCharacter', getNewCharacter)
-app.get('/api/favorite', getFavorites)
 app.post('/api/addCharacter', addCharacter)
 app.delete('/api/deleteCharacter/:id', deleteCharacter)
-app.put('/api/addFavorite/:id', addFavorite)
+app.put('/api/updateCharacter/:id', updateCharacter)
 
 
 
