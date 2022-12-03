@@ -55,12 +55,12 @@ module.exports = {
         const {type} = req.body
 
         if(type === 'like'){
-            characters[index].likes++
+            characters[index].likes += 1
         }else if(type === 'dislike'){
             characters[index].likes--
         }
         
-        res.status(200).send(characters)
+        res.status(200).send(characters[index])
 
     },
    

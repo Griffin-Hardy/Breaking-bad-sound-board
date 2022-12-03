@@ -2,8 +2,8 @@
     {
         "id": 1,
         "name": "Walter White",
-        "picture": "asdf1",
-        "audio": ["qwerty1", "qwerty1", "qwerty1", "qwerty1", "qwerty1"],
+        "picture": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2013%2F08%2Fwalter-white-then-now.jpg&q=60",
+        "src": ["", "qwerty1", "qwerty1", "qwerty1", "qwerty1"],
         "likes": 0
     },
     {
