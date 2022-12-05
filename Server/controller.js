@@ -29,7 +29,7 @@ module.exports = {
             name,
             picture,
             audio,
-            favorite: false
+            likes: 0
         }
         globalId++
         
