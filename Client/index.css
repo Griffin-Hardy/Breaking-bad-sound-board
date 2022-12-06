@@ -79,3 +79,168 @@ color: #e8e8e8;
     box-shadow: 0 0 10px #e8e8e8;
 }
 
+.character-card{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px 3px#00cbfe;
+}
+
+.btnHolder{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn{
+    background-color: #00cbfe;
+    border-radius: 10px;
+    border: none;
+    color: #e8e8e8;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+main{
+    font-size: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 3px 3px 3px#00cbfe;
+}
+
+.newCharacter{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    border: solid 3px #00cbfe;
+}
+legend{
+    color: #e8e8e8;
+}
+
+label{
+    display: block;
+    color: #e8e8e8;
+}
+
+#addCharacter{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #00cbfe;
+    border-radius: 10px;
+    border: none;
+    color: #e8e8e8;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out
+}
+
+#addCharacter:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#newCharacterDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#charIMG{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+    width: 200px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.new-character-card{
+    background-color: #5c5e60;
+    width: 200px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#charText{
+    font-size: 17px;
+    margin: 5px 0;
+    text-shadow: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#qoute{
+    display: flex;
+    justify-content: center;
+}
+
+#likeNum{
+    font-size: 15px;
+    margin: 5px 0;
+    text-shadow: none;
+}
+
+#popBtn{
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.likeBtn{
+    background-color: #00cbfe;
+    border-radius: 10px;
+    border: none;
+    color: #e8e8e8;
+    margin: 1rem;
+    font-size: .8rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#delBtn{
+    background-color: #00cbfe;
+    border-radius: 10px;
+    border: none;
+    color: #e8e8e8;
+    margin: 1rem;
+    font-size: .8rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+

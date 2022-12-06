@@ -43,17 +43,24 @@
 
     <audio src="../sounds/intro/intro.webm" id="Breaking Bad Intro"></audio>
     
-    <div id="buttons"></div>
-
-    <section id="newCharacter">
-        <h3>Suggest a character for us to implement!</h3>
-        <input id="name" placeholder="name">
-        <input id="picture" placeholder="imageURL">
-        <input id="quote" placeholder="quote">
-        <button id="addCharacter">Submit!</button>
+    <section class="btnHolder">
+        <div id="buttons"></div>
     </section>
 
-    <section id="characterDisplay"></section>
+    <section class="newCharacter">
+        <fieldset>
+            <legend>Suggest a character!</legend>
+            <label for="name">Name:</label>
+                <input id="name">
+            <label for="picture">ImageURL:</label>
+                <input id="picture">
+            <label for="quote">Quote:</label>
+                <input id="quote">
+            <button id="addCharacter">Submit!</button>
+        </fieldset>
+    </section>
+
+        <div id="newCharacterDisplay"></div>
 
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

@@ -29,14 +29,9 @@ const createCharacterCard = (character) => {
     newCharCard.classList.add('character-card')
 
     newCharCard.innerHTML = `
-        <img alt='character image' src=${character.picture} height="450" width="700"/>
-        <h1>${character.name}</h1>
-        <section>
-        <button onclick="updateCharacter(${character.id}, 'dislike')">Dislike</button> 
-        Popularity: ${character.likes} 
-        <button onclick="updateCharacter(${character.id}, 'like')">Like</button>
-        </section>
-    `
+        
+    <h1>${character.name}</h1>
+`
     displayChar.appendChild(newCharCard)
 
 }

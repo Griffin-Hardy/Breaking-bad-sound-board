@@ -1,25 +1,27 @@
 const baseURL = 'http://localhost:4444'
 
 
-const displayChar = document.querySelector('#characterDisplay')
+const displayChar = document.querySelector('#newCharacterDisplay')
 const addChar = document.querySelector('#addCharacter')
 
 
 
 const createCharacterCard = (character) => {
     const charCard = document.createElement('section')
-        charCard.classList.add('character-card')
+        charCard.classList.add('new-character-card')
 
         charCard.innerHTML = `
-        <img alt='character image' src=${character.picture}/>
+        <img id="charIMG" alt='character image' src=${character.picture} height="200" width="200"/>
+        <section id="charText">
         <h1>${character.name}</h1>
-        <h3>${character.quote}</h3>
-        <section>
-        <button onclick="updateCharacter(${character.id}, 'dislike')">Dislike</button> 
-        Popularity: ${character.likes} 
-        <button onclick="updateCharacter(${character.id}, 'like')">Like</button>
+        <h3 id="quote">${character.quote}</h3>
         </section>
-        <button onclick="deleteCharacter(${character.id})">Delete</button>
+        <section id="popBtn">
+        <button class="likeBtn" onclick="updateCharacter(${character.id}, 'dislike')">Dislike</button> 
+        <p id="likeNum">Likes: ${character.likes}</p> 
+        <button class="likeBtn" onclick="updateCharacter(${character.id}, 'like')">Like</button>
+        </section>
+        <button id="delBtn" onclick="deleteCharacter(${character.id})">Delete</button>
     `
     displayChar.appendChild(charCard)
 

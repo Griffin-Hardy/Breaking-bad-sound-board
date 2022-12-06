@@ -5,11 +5,11 @@ const baseURL = 'http://localhost:4444'
 const displayChar = document.querySelector('#characterDisplay')
 
 const sounds = [
-'say-my-name', 
-'my-name-is-walter-hartwell-white', 
-'holy-mother-of-god', 
-'i-am-the-one-who-knocks', 
-'no-rage'
+'Say my name', 
+'My name is Walter Hartwell White', 
+'Holy mother of God', 
+'I am the one who knocks', 
+'No No NOOOO'
 ];
 
 sounds.forEach((sound) => {
@@ -30,13 +30,8 @@ const createCharacterCard = (character) => {
     newCharCard.classList.add('character-card')
 
     newCharCard.innerHTML = `
-        <img alt='character image' src=${character.picture}/>
+        
         <h1>${character.name}</h1>
-        <section>
-        <button onclick="updateCharacter(${character.id}, 'dislike')">Dislike</button> 
-        Popularity: ${character.likes} 
-        <button onclick="updateCharacter(${character.id}, 'like')">Like</button>
-        </section>
     `
     displayChar.appendChild(newCharCard)
 
