@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+background-color: #09493d;
+font-family: 'Roboto', sans-serif;
+font-size: x-large;
+color: #e8e8e8;
+
+}
+
+.charLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#charLink1:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#charLink2{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+}
+#charLink2:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#charLink3{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+}
+#charLink3:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#charLink4{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+}
+#charLink4:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#charLink5{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+}
+#charLink5:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#charLink6{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+}
+#charLink6:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+
+#charLink7{
+    border-radius: 20px;
+    border: 5px solid #00cbfe;
+}
+#charLink7:active{
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
+

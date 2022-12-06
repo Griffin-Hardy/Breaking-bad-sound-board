@@ -22,19 +22,22 @@ module.exports = {
     },
    
     addCharacter: (req, res) => {
-        const {name, picture, audio} = req.body
+        const {name, picture, quote} = req.body
+        const index = characters.findIndex((el) => el.id === +req.params.id)
+
+
 
         const newCharacter = {
             id: globalId,
             name,
             picture,
-            audio,
+            quote,
             likes: 0
         }
         globalId++
         
         characters.push(newCharacter)
-        res.status(200).send(characters)
+        res.status(200).send(characters[index])
         
     },
     getNewCharacter: (req, res) => {
@@ -47,7 +50,7 @@ module.exports = {
 
         characters.splice(index, 1)
 
-        res.status(200).send(characters)
+        res.status(200).send(characters[index])
     },
 
     updateCharacter: (req, res) => {

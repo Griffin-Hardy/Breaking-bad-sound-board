@@ -3,42 +3,36 @@
         "id": 1,
         "name": "Walter White",
         "picture": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2013%2F08%2Fwalter-white-then-now.jpg&q=60",
-        "audio": ["../sounds/Walter/say-my-name.mp3"],
         "likes": 0
     },
     {
         "id": 2,
         "name": "Jesse Pinkman",
         "picture": "https://m.media-amazon.com/images/M/MV5BNzYxMzU1OTM1Ml5BMl5BanBnXkFtZTcwMDIzODcyNg@@._V1_.jpg",
-        "audio": ["qwerty2", "qwerty2", "qwerty2", "qwerty2", "qwerty2"],
         "likes": 0
     },
     {
         "id": 3,
         "name": "Saul Goodman",
         "picture": "https://media.cnn.com/api/v1/images/stellar/prod/220811161427-06-breaking-bad-show-amc.jpg?c=original",
-        "audio": ["qwerty3", "qwerty3", "qwerty3", "qwerty3", "qwerty3"],
         "likes": 0
     },
     {
         "id": 4,
         "name": "Gus Fring",
         "picture": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/09/Giancarlo-Esposito-as-Gus-Fring-in-Breaking-Bad-and-Better-Call-Saul-split-image.jpg",
-        "audio": ["qwerty4", "qwerty4", "qwerty4", "qwerty4", "qwerty4"],
         "likes": 0
     },
     {
         "id": 5,
         "name": "Mike Ehrmantraut",
         "picture": "https://m.media-amazon.com/images/M/MV5BMzlkYWE5M2QtODMxMS00MWFjLWIwNDAtNTI4NThlY2JiODJjXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_QL75_UX500_CR0,26,500,281_.jpg",
-        "audio": ["qwerty5", "qwerty5", "qwerty5", "qwerty5", "qwerty5"],
         "likes": 0
     },
     {
         "id": 6,
         "name": "Hector Salamanca",
         "picture": "https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Breaking-Bad-actor-Mark-Margolis-Hector-Salamanca-4195977.jpg?r=1658989392705",
-        "audio": ["qwerty6"],
         "likes": 0
     }
 ]
